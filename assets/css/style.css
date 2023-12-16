@@ -659,6 +659,31 @@ section {
   text-align: justify;
 }
 
+@media (max-width: 475px) {
+  .featured-services .icon-box::before {
+    content: "";
+    position: absolute;
+    background: none;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: none;
+    z-index: -1;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+  
+  .featured-services .icon-box:hover::before {
+    background: none;
+    top: 0;
+    border-radius: 0px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
