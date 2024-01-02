@@ -126,14 +126,7 @@ h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
-}
-
-#header .logo a {
-  color: #222222;
-}
-
-#header .logo a span {
-  color: #00bfff;
+  color: rgb(187, 30, 30);
 }
 
 #header .logo img {
@@ -567,7 +560,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #00bfff;
+  color: rgb(187, 30, 30);
 }
 
 .section-title p {
@@ -599,6 +592,18 @@ section {
   border-radius: 8px;
   z-index: 1;
   cursor: pointer;
+}
+
+.click-p {
+  font-size: .8rem;
+  color: #00bfff;
+  margin: 5% auto 2%;
+  cursor: pointer;
+}
+
+.click-p i {
+  font-size: 1rem;
+  vertical-align: middle;
 }
 
 .featured-services .icon-box::before {
@@ -647,7 +652,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
+.featured-services .icon-box:hover .description, .icon-box:hover .click-p {
   color: #fff;
 }
 
@@ -692,7 +697,7 @@ section {
 }
 
 #about h3 span {
-  color: white;
+  color: rgb(187, 30, 30);
 }
 
 #about img {
@@ -713,7 +718,7 @@ section {
 }
 
 #about .about-p p a {
-  color: red;
+  color: rgb(187, 30, 30);
 }
 
 @media (max-width: 475px) {
@@ -764,7 +769,7 @@ section {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 100%;
   }
 }
 
@@ -1028,7 +1033,11 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: rgb(187, 30, 30);
+}
+
+#footer .footer-top .footer-contact h3 img {
+  width: 2.5rem;
 }
 
 #footer .footer-top .footer-contact p {
